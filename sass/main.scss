@@ -1,0 +1,133 @@
+.rectangle{
+  width: 100%;
+  height: 100%;
+  .rectangle1{
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    img{
+      width: 250px;
+      height: 400px;
+    }
+  }
+  .rectangle2{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    img{
+      width: 250px;
+      height: 400px;
+    }
+  }
+}
+
+%cols{
+  .box{
+    position: relative;
+    height: 256px;
+    width: 255px;
+    .zakaz{
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: 0;
+      position: absolute;
+      z-index: 1;
+      transition: all 0.5s ease-in-out;
+      p{
+        padding: 100px 50px 10px 65px;
+        font-size: 20px;
+        color: white;
+      }
+      .btn{
+        border-radius: 50px;
+        background-color: #F26522;
+        color: white;
+        margin: 0 0 0 60px;
+      }
+    }
+  }
+  &:hover .zakaz{
+    opacity: 0.6;
+  }
+}
+
+.one{
+  @extend %cols;
+  .box{
+    background-image: url("../images/Mask Group (2).png");
+  }
+}
+.two{
+  @extend %cols;
+  .box{
+    background-image: url("../images/Mask Group.png");
+  }
+}
+.three{
+  @extend %cols;
+  .box{
+    background-image: url("../images/Mask Group-1.png");
+  }
+}
+.four{
+  @extend %cols;
+  .box{
+    background-image: url("../images/Mask Group-2.png");
+  }
+}
+.five{
+  @extend %cols;
+  .box{
+    background-image: url("../images/Mask Group-3.png");
+  }
+}
+.six{
+  @extend %cols;
+  .box{
+    background-image: url("../images/Mask Group-4.png");
+  }
+}
+.seven{
+  @extend %cols;
+  .box{
+    background-image: url("../images/Mask Group-5.png");
+  }
+}
+.eight{
+  @extend %cols;
+  .box{
+    background-image: url("../images/Mask Group-6.png");
+  }
+}
+.ten{
+  @extend %cols;
+  .box{
+    background-image: url("../images/Mask Group (1).png");
+  }
+}
+.elevn{
+  @extend %cols;
+  .box{
+    background-image: url("../images/Mask Group-7.png");
+  }
+}
+.thwelv{
+  @extend %cols;
+  .box{
+    background-image: url("../images/Mask Group-8.png");
+  }
+}
+.threetin{
+  @extend %cols;
+  .box{
+    background-image: url("../images/Mask Group-9.png");
+  }
+}
+
+
+.col-12{
+  text-align: center;
+}

@@ -1,0 +1,84 @@
+.rectangle {
+  width: 100%;
+  height: 100%; }
+  .rectangle .rectangle1 {
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    left: 0; }
+    .rectangle .rectangle1 img {
+      width: 250px;
+      height: 400px; }
+  .rectangle .rectangle2 {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0; }
+    .rectangle .rectangle2 img {
+      width: 250px;
+      height: 400px; }
+
+.one .box, .two .box, .three .box, .four .box, .five .box, .six .box, .seven .box, .eight .box, .ten .box, .elevn .box, .thwelv .box, .threetin .box {
+  position: relative;
+  height: 256px;
+  width: 255px; }
+  .one .box .zakaz, .two .box .zakaz, .three .box .zakaz, .four .box .zakaz, .five .box .zakaz, .six .box .zakaz, .seven .box .zakaz, .eight .box .zakaz, .ten .box .zakaz, .elevn .box .zakaz, .thwelv .box .zakaz, .threetin .box .zakaz {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    transition: all 0.5s ease-in-out; }
+    .one .box .zakaz p, .two .box .zakaz p, .three .box .zakaz p, .four .box .zakaz p, .five .box .zakaz p, .six .box .zakaz p, .seven .box .zakaz p, .eight .box .zakaz p, .ten .box .zakaz p, .elevn .box .zakaz p, .thwelv .box .zakaz p, .threetin .box .zakaz p {
+      padding: 100px 50px 10px 65px;
+      font-size: 20px;
+      color: white; }
+    .one .box .zakaz .btn, .two .box .zakaz .btn, .three .box .zakaz .btn, .four .box .zakaz .btn, .five .box .zakaz .btn, .six .box .zakaz .btn, .seven .box .zakaz .btn, .eight .box .zakaz .btn, .ten .box .zakaz .btn, .elevn .box .zakaz .btn, .thwelv .box .zakaz .btn, .threetin .box .zakaz .btn {
+      border-radius: 50px;
+      background-color: #F26522;
+      color: white;
+      margin: 0 0 0 60px; }
+.one:hover .zakaz, .two:hover .zakaz, .three:hover .zakaz, .four:hover .zakaz, .five:hover .zakaz, .six:hover .zakaz, .seven:hover .zakaz, .eight:hover .zakaz, .ten:hover .zakaz, .elevn:hover .zakaz, .thwelv:hover .zakaz, .threetin:hover .zakaz {
+  opacity: 0.6; }
+
+.one .box {
+  background-image: url("../images/Mask Group (2).png"); }
+
+.two .box {
+  background-image: url("../images/Mask Group.png"); }
+
+.three .box {
+  background-image: url("../images/Mask Group-1.png"); }
+
+.four .box {
+  background-image: url("../images/Mask Group-2.png"); }
+
+.five .box {
+  background-image: url("../images/Mask Group-3.png"); }
+
+.six .box {
+  background-image: url("../images/Mask Group-4.png"); }
+
+.seven .box {
+  background-image: url("../images/Mask Group-5.png"); }
+
+.eight .box {
+  background-image: url("../images/Mask Group-6.png"); }
+
+.ten .box {
+  background-image: url("../images/Mask Group (1).png"); }
+
+.elevn .box {
+  background-image: url("../images/Mask Group-7.png"); }
+
+.thwelv .box {
+  background-image: url("../images/Mask Group-8.png"); }
+
+.threetin .box {
+  background-image: url("../images/Mask Group-9.png"); }
+
+.col-12 {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
